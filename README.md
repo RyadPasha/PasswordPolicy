@@ -40,7 +40,7 @@ $policyBuilder = $policy->minDigit(1)
 
 ### Advanced
 You can use constraints functions, which are:
-* `cantContain()` // Checks if password has any part from the this array
+* `cantContain()` // Checks if password has any part from this array
 * `blackList()`   // Checks if password is equal to any string in this array
 * `notIn()`       // Checks if password is equal to any old passwords in this array
 
